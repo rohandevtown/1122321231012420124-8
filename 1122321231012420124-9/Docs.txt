@@ -1,0 +1,49 @@
+Components:
+    >> Class Components
+    >> Function Components
+
+
+States & Props:
+    States:
+        >> Data required for the component
+
+
+Hooks:
+    >> To access the State/Data
+    >> useState()
+
+    import {useState} from "react";
+    const [count, setCount] = useState(5);
+        >> count: variable
+        >> setCount: method
+
+SetCount
+setCount
+
+
+Whenevr your state changes/updates, your component refreshes
+
+
+Props:
+    Data which we transfer from parent component to child component
+    >> Parent Component ------data(props)-------> Child Component
+
+    <FunctionalComponent name="Rohan" age={27} />
+
+Routing:
+
+    npm i react-router-dom
+
+Package Version:
+    6.22.3
+                            3: Bug Fixes
+                    22: Updates
+        6: Breaking Changes                        
+
+
+
+BrowserRouter   
+    Routes
+        Route
+
+Layouts/HOC's (High Order Component)        

@@ -1,0 +1,13 @@
+git:
+    npm init
+    git remote add origin <https>
+
+Creating a React Appln:
+    npm init
+    npm create-react-app
+    npx create-react-app appln-name
+
+
+Run Appln:
+    cd appln-name
+    npm start
